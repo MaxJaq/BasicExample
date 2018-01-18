@@ -1,0 +1,7 @@
+<resources>
+    <string name="hello_world">Bonjour Monde !</string>
+    <string name="next">Suivant</string>
+    <string name="next_with_result">Suivant avec Résultat</string>
+    <string name="hide">Cacher</string>
+    <string name="show">Afficher</string>
+</resources>
