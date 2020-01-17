@@ -9,13 +9,22 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
+            <!--UNCOMMENT THESE LINES AND COMMENT LINES IN MainActivityKt DEFINITION TO SWITCH FROM KOTLIN IMPLEMENTATION TO JAVA IMPLEMENTATION-->
+            <!--<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+        <activity android:name=".MainActivityKt" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".NextActivity"/>
+        <activity android:name=".NextActivity" />
+        <activity android:name=".NextActivityKt" />
     </application>
 
 </manifest>
